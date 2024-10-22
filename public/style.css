@@ -1,0 +1,118 @@
+body {
+    height: 6000px;
+    background-color: #101010;
+    user-select: none;
+}
+
+.homepage {
+    height: 1080px;
+    background-color: #101010;
+    width: 100%;
+    overflow: hidden;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: #333; */
+    padding: 1em;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 6rem;
+  }
+  
+  li {
+    margin-left: 3em;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+    margin: .5em;
+  }
+  
+
+.div-container {
+    display: flex;
+    height: 100vh;
+    width: auto;
+    margin-top: 1em;
+    position: relative;
+}
+
+.glass-container {
+  width: 35%;
+  height: 60%;
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.212);
+}
+
+.glass-container h1{
+  font-family: 'Poppins',sans-serif;
+  font-size: 8vh;
+  margin: auto;
+  color: #4F4C51;
+  line-height: 1em;
+}
+
+.glass-container h4{
+  font-family: 'Poppins',sans-serif;
+  font-size: 2vh;
+  margin: auto;
+  color: #FFFFFF;
+}
+
+.glass-container h5{
+  font-family: 'Poppins',sans-serif;
+  font-size: 2vh;
+  margin: auto;
+  color: #FFFFFF;
+}
+
+.webtext {
+    width: 60%;
+    /* background-color: #DDDDDD; */
+    word-wrap: break-word;
+    height: 100%;
+    z-index: 1;
+}
+
+.webtext h1{
+    color: #adadad;
+    opacity: 0.1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17vw;
+    line-height: .9em;
+    font-weight:750;
+    margin: auto;
+
+}
+
+.container-picture {
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+    margin-top: 5%;
+    z-index: 1;
+}
+
+.container-picture img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    z-index: 1;
+}
